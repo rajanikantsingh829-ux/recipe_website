@@ -1,0 +1,76 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #ff5722;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Navbar */
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Recipe Cards */
+.recipes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Recipe Page */
+.recipe {
+    padding: 20px;
+}
+
+.recipe img {
+    width: 300px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .recipes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
